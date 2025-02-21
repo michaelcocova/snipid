@@ -1,0 +1,41 @@
+{
+  "name": "@snipid/core",
+  "type": "module",
+  "version": "1.0.0",
+  "private": false,
+  "description": "一个灵活高效的分布式唯一标识符生成器",
+  "author": {
+    "email": "michael.cocova@gmail.com",
+    "name": "Michael Cocova"
+  },
+  "license": "MIT",
+  "homepage": "https://snipid.dev",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/michaelcocova/snipid"
+  },
+  "keywords": [
+    "短id生成",
+    "标识符",
+    "生成器",
+    "分布式",
+    "唯一ID",
+    "UUID",
+    "ID生成器"
+  ],
+  "main": "src/index.ts",
+  "files": [
+    "README.md",
+    "dist",
+    "index.d.ts",
+    "package.json"
+  ],
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build"
+  },
+  "devDependencies": {
+    "vite": "^6.0.1",
+    "vite-plugin-dts": "^4.5.0"
+  }
+}

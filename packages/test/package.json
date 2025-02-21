@@ -1,0 +1,25 @@
+{
+  "name": "@snipid/test",
+  "type": "module",
+  "version": "1.0.0",
+  "private": true,
+  "author": {
+    "email": "michael.cocova@gmail.com",
+    "name": "Michael Cocova"
+  },
+  "license": "MIT",
+  "homepage": "https://snipid.dev",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/michaelcocova/snipid"
+  },
+  "scripts": {
+    "test": "vitest",
+    "test:run": "vitest run",
+    "test:ui": "vitest --ui"
+  },
+  "devDependencies": {
+    "@vitest/ui": "^3.0.6",
+    "vitest": "^3.0.6"
+  }
+}
