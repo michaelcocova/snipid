@@ -1,0 +1,53 @@
+{
+  "type": "module",
+  "version": "1.0.0",
+  "private": true,
+  "author": {
+    "email": "michael.cocova@gmail.com",
+    "name": "Michael Cocova"
+  },
+  "license": "MIT",
+  "homepage": "https://snipid.dev",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/michaelcocova/snipid"
+  },
+  "scripts": {
+    "dev": "pnpm -F core run dev",
+    "build": "pnpm -F core run build",
+    "prepare": "husky",
+    "release": "release-it",
+    "test": "pnpm -F test run test",
+    "test:run": "pnpm -F test run test:run",
+    "test:ui": "pnpm -F test run test:ui",
+    "commit": "git add . && git-cz",
+    "docs:dev": "pnpm -F docs run dev",
+    "docs:build": "pnpm -F docs run build",
+    "docs:preview": "pnpm -F docs run preview"
+  },
+  "config": {
+    "commitizen": {
+      "path": "node_modules/cz-git"
+    }
+  },
+  "dependencies": {
+    "vue": "^3.5.13"
+  },
+  "devDependencies": {
+    "@antfu/eslint-config": "^4.3.0",
+    "@commitlint/cli": "^19.7.1",
+    "@commitlint/config-conventional": "^19.7.1",
+    "@release-it/conventional-changelog": "^10.0.0",
+    "@snipid/core": "workspace:*",
+    "commitizen": "^4.3.1",
+    "commitlint": "^19.7.1",
+    "cz-conventional-changelog": "^3.3.0",
+    "cz-git": "^1.11.0",
+    "eslint": "^9.20.1",
+    "eslint-plugin-format": "^1.0.1",
+    "husky": "^9.1.7",
+    "lint-staged": "^15.4.3",
+    "release-it": "^18.1.2",
+    "typescript": "~5.7.2"
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "name": "snipid",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "一个灵活高效的分布式唯一标识符生成器",
+  "author": {
+    "email": "michael.cocova@gmail.com",
+    "name": "Michael Cocova"
+  },
+  "license": "MIT",
+  "homepage": "https://snipid.dev",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/michaelcocova/snipid"
+  },
+  "keywords": [
+    "短id生成",
+    "标识符",
+    "生成器",
+    "分布式",
+    "唯一ID",
+    "UUID",
+    "ID生成器"
+  ],
+  "exports": {
+    ".": {
+      "umd": "./dist/snipid.umd.js",
+      "types": "./dist/index.d.ts",
+      "import": "./dist/snipid.js",
+      "require": "./dist/snipid.cjs"
+    }
+  },
+  "main": "./dist/snipid.cjs",
+  "module": "./dist/snipid.js",
+  "unpkg": "./dist/snipid.umd.js",
+  "jsdelivr": "./dist/snipid.umd.js",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "README.md",
+    "dist",
+    "package.json"
+  ]
+}

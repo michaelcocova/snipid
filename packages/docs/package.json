@@ -1,0 +1,25 @@
+{
+  "name": "@snipid/docs",
+  "type": "module",
+  "version": "1.0.0",
+  "private": true,
+  "author": {
+    "email": "michael.cocova@gmail.com",
+    "name": "Michael Cocova"
+  },
+  "license": "MIT",
+  "homepage": "https://snipid.dev",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/michaelcocova/snipid"
+  },
+  "scripts": {
+    "dev": "vitepress dev",
+    "build": "vitepress build",
+    "preview": "vitepress preview"
+  },
+  "devDependencies": {
+    "vitepress": "^1.6.3",
+    "vue": "^3.5.13"
+  }
+}
