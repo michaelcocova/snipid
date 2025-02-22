@@ -1,7 +1,7 @@
 {
   "name": "snipid",
   "type": "module",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "一个灵活高效的分布式唯一标识符生成器",
   "author": {
     "email": "michael.cocova@gmail.com",
