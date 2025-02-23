@@ -8,7 +8,7 @@
     "name": "Michael Cocova"
   },
   "license": "MIT",
-  "homepage": "https://snipid.dev",
+  "homepage": "https://www.snipid.dev",
   "repository": {
     "type": "git",
     "url": "https://github.com/michaelcocova/snipid"
@@ -20,6 +20,7 @@
   },
   "devDependencies": {
     "@vitest/ui": "^3.0.6",
+    "ts-node": "^10.9.2",
     "vitest": "^3.0.6"
   }
 }

@@ -25,3 +25,14 @@ export interface SnipIDOptions {
   /** 预生成 ID 池的大小（0 表示禁用） */
   poolSize?: number
 }
+
+export interface SnipIDParserReturn {
+  /** 时间戳 */
+  timestamp?: Date
+  /** 工作节点 ID */
+  workerId?: number
+  /** 数据中心 ID */
+  datacenterId?: number
+  /** 盐值 */
+  salt: string
+}

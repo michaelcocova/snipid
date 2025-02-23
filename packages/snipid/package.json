@@ -1,26 +1,32 @@
 {
   "name": "snipid",
   "type": "module",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "一个灵活高效的分布式唯一标识符生成器",
   "author": {
     "email": "michael.cocova@gmail.com",
     "name": "Michael Cocova"
   },
   "license": "MIT",
-  "homepage": "https://snipid.dev",
+  "homepage": "https://www.snipid.dev",
   "repository": {
     "type": "git",
     "url": "https://github.com/michaelcocova/snipid"
   },
   "keywords": [
     "短id生成",
+    "short id generator",
     "标识符",
+    "identifier",
     "生成器",
+    "generator",
     "分布式",
+    "distributed",
     "唯一ID",
+    "unique id",
     "UUID",
-    "ID生成器"
+    "ID生成器",
+    "id generator"
   ],
   "exports": {
     ".": {
